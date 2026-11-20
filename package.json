@@ -1,0 +1,13 @@
+{
+  "name": "fintech-leaked-key-drill",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/key-drill.ts",
+    "test": "node --experimental-strip-types --test src/key-drill.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
